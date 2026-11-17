@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "902608343879",
+    "project_id": "fotoapuntes-26f6b",
+    "storage_bucket": "fotoapuntes-26f6b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902608343879:android:c99229eb5c059314857262",
+        "android_client_info": {
+          "package_name": "com.jorgermz12.reactcamara"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlhHyUTCEzmZ8OOejnlC3uGOYs2GMcLK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

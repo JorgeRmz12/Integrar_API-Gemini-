@@ -11,9 +11,12 @@
     },
     "android": {
       "permissions": [
-        "android.permission.CAMERA"
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
       ],
       "package": "com.jorgermz12.reactcamara",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
@@ -23,6 +26,20 @@
       "eas": {
         "projectId": "f3c45497-7529-43cf-b6fc-bb310f75561e"
       }
-    }
+    },
+    "plugins": [
+      "expo-status-bar",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "La aplicación necesita acceder a tu cámara para fotografiar apuntes.",
+          "photosPermission": "La aplicación necesita acceder a tu galería para seleccionar apuntes."
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/app-check",
+      "expo-build-properties",
+      "expo-sqlite"
+    ]
   }
 }
